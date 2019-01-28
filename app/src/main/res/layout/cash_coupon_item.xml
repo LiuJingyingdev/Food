@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coupon_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/p1"
+            android:scaleType="center"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/coupon_store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蓬江区亿源丰餐厅"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="互斥券"
+                android:textSize="10dp"
+                android:background="#f2ebeb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="有效期至2019.01.09"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="#ff0303"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/coupon_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textColor="#ff0303"
+                    android:textSize="40dp" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="满34可用"
+                android:paddingLeft="70dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="不可与满减、折扣商品、第二份半价活动优惠同时享受。在线支付专享"
+            android:textSize="12dp"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="立即使用"
+            android:background="#f15656"
+            android:textColor="#ffff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="巴哥红包"/>
+        <item
+            android:title="商家代金券"/>
+        <item
+            android:title="我的地址"/>
+        <item
+            android:title="邀请有奖"/>
+        <item
+            android:title="客服中心"/>
+        <item
+            android:title="帮助和反馈"/>
+        <item
+            android:title="协议和说明"/>
+    </group>
+
+</menu>

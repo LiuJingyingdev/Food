@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.food">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/main_icon"
+        android:label="巴哥外卖"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WellCome"
+            android:theme="@style/MenuActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:launchMode="singleTask"
+            android:theme="@style/MenuActivityTheme"></activity>
+        <activity android:name=".StoreMap" />
+        <activity android:name=".Oder_Details" />
+        <activity android:name=".RedEnvelopes" />
+        <activity android:name=".CashCoupon" />
+        <activity android:name=".MyAddress" />
+        <activity android:name=".MyReward" />
+        <activity android:name=".ServiceCenter" />
+        <activity android:name=".HelpAndFeedBack" />
+        <activity android:name=".ProtocolAndSay" />
+        <activity android:name=".MyClassify"></activity>
+    </application>
+
+</manifest>

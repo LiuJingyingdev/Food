@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oder__details"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.food.Oder_Details">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/order_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffff"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:title="订单详情"
+            android:titleTextColor="#000000"
+            android:fitsSystemWindows="true"
+            android:paddingTop="5dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"></android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/order_detail_head"></include>
+
+            <include layout="@layout/order_detail_good"></include>
+
+            <include layout="@layout/order_detail_bottom"></include>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
